@@ -15,9 +15,8 @@ export default async function Home() {
   const data =await getData()
 
   return (
-    <div className="container mx-auto   );
-    gap: 6px;">
-        <div className="grid grid-cols gap-6 md:grid-cols-2  " >
+    <div className="container mx-auto my-3 p-2" >
+        <div className="grid grid-col-1 gap-6 md:grid-cols-3   lg:grid-cols-4  " >
     
 
     {data.map((itmes)=>(
