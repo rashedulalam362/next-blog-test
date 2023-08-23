@@ -15,12 +15,12 @@ export default async function Home() {
   const data =await getData()
 
   return (
-    <div className="container mx-auto my-3 p-2" >
-        <div className="grid grid-col-1 gap-6 md:grid-cols-3  lg:grid-cols-4  " >
+    <div className="container mx-auto " >
+       <div className="grid gap-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  " >
     
 
     {data.map((itmes)=>(
-      <div className="card w-96 bg-base-100 shadow-xl ">
+      <div className="card m-5 bg-base-100 shadow-xl ">
        <figure><img src={itmes.img} alt="Shoes" /></figure>
       <div className="card-body">
         <h2 className="card-title">{itmes.name}</h2>

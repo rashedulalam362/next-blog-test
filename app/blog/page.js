@@ -3,6 +3,7 @@ import Link from 'next/link'
 async function getData() {
   const res = await fetch('https://basic-blog.teamrabbil.com/api/post-newest')
   const data= await res.json()
+  // console.log(data);
  
   if (!res.ok) {
    
@@ -17,7 +18,7 @@ async function blog() {
   const data =await getData()
   // console.log(data);
   return (
-    <div >
+    <div className='grid gap-3 sm:gird-cols-1 md:grid-cols-2 lg:grid-cols-3 ' >
      
      {data.map((items)=>(
        <div className="card w-96 bg-base-100 shadow-xl">
