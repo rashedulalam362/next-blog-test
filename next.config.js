@@ -1,9 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // basePath: '/build',
-    //  key:'X-Frame-Options',
-    //  value:'DENY'
-    
+    async headers (){
+
+   return [
+      {
+        basePath: '/build', 
+        headers: [
+          {
+            headers:[key:'X-Frame-Options',,
+           value:'DENY
+          },
+        ],
+
+
+        
+  
 }
 
 module.exports = nextConfig
