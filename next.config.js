@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // basePath: '/build',
-    //  key:'X-Frame-Options',
-    //  value:'DENY'
+    basePath: '/build',
+     key:'X-Frame-Options',
+     value:'DENY'
     
 }
 
