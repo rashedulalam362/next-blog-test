@@ -16,7 +16,7 @@ export default async function Home() {
 
   return (
     <div className="container mx-auto my-3 p-2" >
-        <div className="grid grid-col-1 gap-6 md:grid-cols-3   lg:grid-cols-4  " >
+        <div className="grid grid-col-1 gap-6 md:grid-cols-3  lg:grid-cols-4  " >
     
 
     {data.map((itmes)=>(

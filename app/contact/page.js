@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div className="hero w-full bg-stone-300">
+    <div className="hero w-full  bg-stone-300">
   <div className="hero-content flex-col lg:flex-row-reverse">
   
     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
