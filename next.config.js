@@ -1,16 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    async headers (){
+//     async headers (){
 
-   return [
-      {
-        basePath: '/build', 
-        headers: [
-          {
-            headers:[key:'X-Frame-Options',,
-           value:'DENY
-          },
-        ],
+//    return [
+//       {
+//         basePath: '/build', 
+//         headers: [
+//           {
+//             headers:[key:'X-Frame-Options',,
+//            value:'DENY
+//           },
+//         ],
 
 
         
